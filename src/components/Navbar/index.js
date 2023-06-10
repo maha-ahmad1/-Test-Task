@@ -4,7 +4,6 @@ import MENU_ITEMS from "data/constants/navLinks";
 import Link from "next/link";
 import Inbox from "components/svg";
 export const Navbar = () => {
-
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -81,7 +80,6 @@ export const Navbar = () => {
         </div>
       </aside>
     </div>
-    
   );
-}
+};
 export default Navbar;
