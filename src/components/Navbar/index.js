@@ -70,7 +70,7 @@ export const Navbar = () => {
                   <span className="ml-3">{item.title}</span>
                   {item.badge && (
                     <span className="inline-flex items-center justify-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">
-                      {item.badge}
+                      {item.badge}{" "}
                     </span>
                   )}
                 </Link>
